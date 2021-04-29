@@ -19,6 +19,7 @@
 ## 💻 Tecnologias
 
 * ReactJS
+* [styled-components](https://styled-components.com/)
 
 ## 🚀 Instalação
 
