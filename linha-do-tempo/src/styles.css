@@ -1,0 +1,77 @@
+*,
+::after,
+::before {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #abcd;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.vertical-timeline-element-icon,
+.bounce-in {
+  box-shadow: 0px 0px transparent;
+  text-align: center;
+}
+
+.vertical-timeline-element-date {
+  text-align: left;
+  width: 80%;
+}
+
+.img_logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 1172px) {
+  .vertical-timeline-element-content {
+    margin-left: 8%;
+  }
+  .img_logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .vertical-timeline-element-content {
+    margin-left: 14%;
+  }
+}
+
+/* spinner style */
+.loader {
+  border: 10px solid #bebebe;
+  border-top: 10px solid #000000;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+  margin-top: 20%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
