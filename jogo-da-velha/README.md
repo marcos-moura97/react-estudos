@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+## jogo-da-velha
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/ImGabreuw/podcastr?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/ImGabreuw/podcastr?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/ImGabreuw/podcastr?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/ImGabreuw/podcastr?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/ImGabreuw/podcastr?style=for-the-badge)
 
-## Available Scripts
+![](https://github.com/marcos-moura97/react-estudos/blob/main/velha.PNG)
 
-In the project directory, you can run:
+> Jogo da velha é um projeto de um simples jogo da velha para 2 jogadores. Neste projeto alguns conceitos foram trabalhados, como o de estados, JSX e memórias
 
-### `yarn start`
+## 💻 Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* npm / node
+* Visual Studio Code
+* [Guia de configuração do ambiente](https://www.notion.so/Configura-es-do-ambiente-6dd0c69e71e141ef9492b00ba310a2fe).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💻 Tecnologias
 
-### `yarn test`
+* ReactJS
+* [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Instalação
 
-### `yarn build`
+```bash
+# Clone do repositório
+$ git clone https://github.com/marcos-moura97/react-estudos.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Navegando até o repositório deste projeto
+$ cd jogo-da-velha
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Instalação das dependências
+$ npm install
 
-### `yarn eject`
+# Iniciar a aplicação
+$ npm run dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Entre em http://localhost:3000/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📫 Contribuição
+Para contribuir com <nome_do_projeto>, siga estas etapas:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
 
-## Learn More
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 Licença
 
-### Code Splitting
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[⬆ Voltar ao topo](#jogo-da-velha)<br>
